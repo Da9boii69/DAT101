@@ -2,7 +2,6 @@
 import { initPrintOut, printOut, newLine } from "../../common/script/utils.mjs";
 initPrintOut(document.getElementById("txtOut"));
 
-
 printOut("--- Part 1 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
 const x = 2 + 3 * (2-4) * 6; 
