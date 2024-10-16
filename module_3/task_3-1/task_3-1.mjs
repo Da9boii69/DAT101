@@ -31,23 +31,34 @@ if (number < 0){
 
 printOut(newLine);
 
-printOut("--- Part 6 ----------------------------------------------------------------------------------------------");
+printOut("--- Part 6, 7 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
 
+function getRandomInt(min, max){
+  return Math.floor(Math.random() * (min - max + 1)) + min;
+}
 
+let pictureMP = getRandomInt(1, 8);
+printOut("The picture is"+ (pictureMP.toString() + "MP"));
 
+if (pictureMP  >= 6){
+  printOut("The image is too large!");
+} else if (pictureMP < 4){
+  printOut("The image is too small");
+} else{
+  printOut("Thank you!");
+}
 
-
-printOut(newLine);
-
-printOut("--- Part 7 ----------------------------------------------------------------------------------------------");
-/* Put your code below here!*/
-printOut("Replace this with you answer!");
 printOut(newLine);
 
 printOut("--- Part 8 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
-printOut("Replace this with you answer!");
+
+const monthlist =["January", "February", "Mars", "April", "May", "June","July", "August", "September", "October", "November", "December"]
+const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30,31];  
+const noOfMonth = 
+
+
 printOut(newLine);
 
 printOut("--- Part 9 ----------------------------------------------------------------------------------------------");
